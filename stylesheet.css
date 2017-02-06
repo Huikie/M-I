@@ -6,3 +6,6 @@ body {
   background-image: url("https://www.ladyslipperscenicbyway.org/images/CNF_Dock.jpg");
 }
 
+#navigator {
+  border: 5px;
+}
