@@ -4,6 +4,7 @@ h1 {
 
 body {
   background-image: url("https://www.ladyslipperscenicbyway.org/images/CNF_Dock.jpg");
+  background-repeat: no-repeat;
 }
 
 #navigator {
