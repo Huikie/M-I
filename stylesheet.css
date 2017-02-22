@@ -5,10 +5,16 @@
 h1 {
 	text-align: center;
 }
+
+h2 {
+    text-align: left;
+    border-bottom: solid 1px black;
+}
+
 body {
 	background: url(https://i.ytimg.com/vi/_C898SQMB4Q/maxresdefault.jpg) no-repeat center center;
 	background-size: cover;
-	font-family: Raleway;
+	font-family: Arial;
 	background-attachment: fixed;
 }
 
@@ -18,10 +24,6 @@ nav {
 	top: 0;
     background-color: black;
 	width: 100%;
-}
-
-li a.active {
-    background-color: rgb(255,95,0);
 }
 
 li {
@@ -42,11 +44,12 @@ li a:hover {
 
 #content {
 	margin-left: 100px;
+	overflow: hidden;
 	margin-right: 100px;
 	position: relative;
 	top: 600px;
-	height: 810px;
-	background-color: white;
+	height: 100%;
+	background-color: rgba(255,255,255,0.8);
 	z-index: -1;
 }
 
@@ -58,10 +61,29 @@ li a:hover {
 
 p {
 	padding-top: 30px;
+	text-align: center;
 }
-
+p.opdrinfo {
+	position: relative;
+	bottom: 175px;
+	left: 100px;
+	text-align: center;
+}
 .hello {
 	padding-top: 5px;
 	font-size: 50px;
     color: rgb(255, 102, 0);
+}
+
+.opdrachten {
+	float: left;
+	border: 5px solid black;
+	width: 1309px;
+}
+
+.opdrachten img {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 50px;
 }
