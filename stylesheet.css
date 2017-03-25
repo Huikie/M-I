@@ -82,7 +82,7 @@ li a:hover {
     text-align: center;
     float: right;
     margin-right: 50px;
-    margin-top: 35px;
+    margin-top: 90px;
 }
 
 
@@ -173,6 +173,7 @@ li a:hover {
     .opdrinfo {
         width: 50%;
         float: right;
+        margin-top: 30px
     }
     .afbeeldingen {
         width: 20%;
