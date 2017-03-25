@@ -21,9 +21,7 @@ body {
 }
 
 nav {
-    list-style-type: none;
 	position: fixed;
-	top: 0;
     background-color: black;
 	width: 100%;
 }
@@ -31,16 +29,19 @@ nav {
 .current {
     background-color: rgb(127, 183, 240);
 }
+
 li {
-	float: right;
+	float: left;
+    list-style-type: none;
+    display: block;
 }
 
 li a {
-    display: block;
     color: White;
 	font-size: 18px;
     padding: 20px 25px;
     text-decoration: none;
+    display: block;
 }
 
 li a:hover {
@@ -50,7 +51,7 @@ li a:hover {
 #content {
     margin-left: 100px;
     margin-right: 100px;
-	border: 20px solid rgb(64, 72, 73);
+	border: 10px solid rgb(64, 72, 73);
 	overflow: hidden;
 	position: relative;
 	top: 580px;
@@ -62,10 +63,10 @@ li a:hover {
 #content2 {
     margin-left: 100px;
     margin-right: 100px;
-	border: 20px solid rgb(64, 72, 73);
+	border: 10px solid rgb(64, 72, 73);
 	overflow: hidden;
 	position: relative;
-	top: 290px;
+	top: 190px;
 	height: 100%;
 	background-color: rgb(127, 183, 240);
 	z-index: -1;
@@ -79,10 +80,13 @@ li a:hover {
 
 .opdrinfo {
 	width: 50%;
+    display: block;
+    padding: 1%;
     text-align: center;
     float: right;
-    margin-right: 50px;
-    margin-top: 90px;
+    margin-right: 4%;
+    margin-top: 4%;
+    border: 5px solid black;
 }
 
 
@@ -106,7 +110,7 @@ li a:hover {
 
 .opdrachten {
 	float: left;
-	border-bottom: 20px solid rgb(64, 72, 73);
+	border-bottom: 10px solid rgb(64, 72, 73);
 	width: 1309px;
 }
 
