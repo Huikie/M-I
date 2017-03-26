@@ -85,8 +85,10 @@ li a:hover {
     text-align: center;
     float: right;
     margin-right: 4%;
-    margin-top: 4%;
+    margin-top: 4.5%;
+    margin-bottom: 1%;
     border: 5px solid black;
+    background-color: rgba(255,255,255,0.2);
 }
 
 
@@ -118,6 +120,7 @@ li a:hover {
 	display: block;
     width: 200px;
     height: 200px;
+    margin-bottom: 10px;
     margin-top: 50px;
     margin-left: 80px;
 }
@@ -136,13 +139,21 @@ li a:hover {
     background-color: rgb(64, 72, 73);
     font-family: 40px Georgia, Helvetica, sans-serif;
 }
+.samengewerkt {
+    font-family: Georgia, Helvetica, sans-serif;
+    text-align: right;
+    color: rgba(255,255,255,0.4);
+    padding-left: 125px;
+    background-color: rgb(64, 72, 73);
+    font-size: 20px;
+}
 
 .week {
     text-align: left;
     float: left;
 	margin-left: 80px;
 	margin-top: 20px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .opdrtitel {
@@ -171,17 +182,20 @@ li a:hover {
     
     }
     #content2{
-        width: 520px;
+        width: 100%;
+        top: 296px;
         margin-left: 0;
     }
     .opdrinfo {
         width: 50%;
         float: right;
-        margin-top: 30px
     }
     .afbeeldingen {
         width: 20%;
 
+    }
+    .title {
+        width: 98.5%;
     }
 }
 
