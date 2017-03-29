@@ -53,9 +53,10 @@ li a:hover {
     margin-left: 100px;
     margin-right: 100px;
 	border: 10px solid rgb(64, 72, 73);
+    border-radius: 11px;
 	overflow: hidden;
 	position: relative;
-	top: 540px;
+	top: 585px;
 	height: 100%;
 	background-color: rgba(108, 125, 170, 0.8);
 	z-index: -1;
@@ -65,9 +66,10 @@ li a:hover {
     margin-left: 100px;
     margin-right: 100px;
 	border: 10px solid rgb(64, 72, 73);
+    border-radius: 11px;
 	overflow: hidden;
 	position: relative;
-	top: 190px;
+	top: 230px;
 	height: 100%;
 	background-color: rgba(108, 125, 170, 0.8);
 }
@@ -112,7 +114,7 @@ li a:hover {
 .opdrachten {
 	float: left;
 	border-bottom: 10px solid rgb(64, 72, 73);
-	width: 1309px;
+	width: 100%;
 }
 
 .afbeeldingen {
@@ -160,15 +162,9 @@ li a:hover {
     margin-top: 100px;
 }
 
-@media screen and (max-width:959px){
-    #container{
-        width: 100%;
-    }
+@media screen and (max-width:1020px){
     .opdrachten {
         width: 100%;
-    }
-    .opdrinfo {
-        float: right;
     }
 }
 
@@ -198,5 +194,7 @@ li a:hover {
 }
 
 @media screen and (max-width:320px){
-    width: 320px;
+    #container {
+        width: 320px;
+    }
 }
