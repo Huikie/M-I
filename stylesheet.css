@@ -205,9 +205,8 @@ li a:hover {
 
 span {
     font-size: 40px;
-    text-align: center;
+    text-align: 
     float: left;
-    margin-left: 25.5%;
 }
 
 .opdrtitel {
@@ -216,16 +215,18 @@ span {
     margin-top: 100px;
 }
 
-.links {
+.links2 {
     border: 5px solid black;
     padding: 1%;
+    margin-right: 28px;
     background-color: rgba(255,255,255,0.2);
-    margin-top: 20px;
-    margin-left: 80px;
-    width: 85%;
+    float: left;
     color: rgb(175,26,45);
 }
-
+#links {
+    margin-top: 20px;
+    margin-left: 92px;
+}
 
 @media screen and (max-width:1020px){
     .opdrachten {
@@ -256,6 +257,15 @@ span {
     .afbeeldingen2 {
         width: 50%;
     }
+    .afbeeldingeind{
+        width: 50%;
+    }
+    .eindprojectinfo {
+        width: 80.2%;
+        }
+    #links {
+        margin-left: 80px;
+    } 
     .title {
         width: 98.5%;
     }
