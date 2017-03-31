@@ -145,16 +145,18 @@ li a:hover {
 }
 
 .afbeeldingen2 {
-    display: block;
-    width: 30%;
-    height: 500px;
-    margin-right: 5px;
-    border: 5px solid black;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 80px;
+   width: 30%;
+   height: 300px;
+   margin-right: 20px;
+   margin-top: 50px;
+   border: 5px solid black;
+    
 }
 
+#schetsen {
+    display: inline-block;
+    margin-left: 80px;
+}
 .afbeeldingeind {
     border-radius: 10px;
     margin-bottom: 20px;
@@ -241,6 +243,11 @@ span {
     text-align: left;
     
     }
+    #content {
+        width: 100%;
+        margin-left: 0;
+        top: 296px;
+    }
     #content2{
         width: 100%;
         top: 296px;
@@ -255,7 +262,8 @@ span {
 
     }
     .afbeeldingen2 {
-        width: 50%;
+        width: 40%;
+        height: 30%;
     }
     .afbeeldingeind{
         width: 50%;
@@ -267,7 +275,7 @@ span {
         margin-left: 80px;
     } 
     .title {
-        width: 98.5%;
+        width: 98.2%;
     }
 }
 
