@@ -226,6 +226,7 @@ span {
 #links {
     margin-top: 20px;
     margin-left: 92px;
+    width: 90%;
 }
 
 @media screen and (max-width:1020px){
